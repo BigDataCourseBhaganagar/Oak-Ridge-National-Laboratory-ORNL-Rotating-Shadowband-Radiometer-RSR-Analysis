@@ -23,6 +23,11 @@ Data can be found here:
 https://midcdmz.nrel.gov/apps/daily.pl?site=ORNL&start=20070912&yr=2019&mo=11&dy=20
 
 and the following table can be edited to extract desired data:
+<p align="left">
+  <img src="/Data selection image.JPG" height="80" title="hover text">
+</p>
+
+
 Data selection image.JPG
 
 
