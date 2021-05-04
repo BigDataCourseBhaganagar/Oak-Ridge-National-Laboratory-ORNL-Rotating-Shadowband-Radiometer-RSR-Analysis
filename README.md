@@ -22,6 +22,10 @@ Pandas descriptive statistics, specific python modules for dataset, statistical 
 Data can be found here: 
 https://midcdmz.nrel.gov/apps/daily.pl?site=ORNL&start=20070912&yr=2019&mo=11&dy=20
 
+and the following table can be edited to extract desired data:
+image
+
+
 Data download can be done:
 https://drive.google.com/drive/folders/1pQK7fA5RbQu3xF0XiIua30coFAGFY3mX?usp=sharing
 
