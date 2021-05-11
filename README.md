@@ -31,3 +31,26 @@ and the following table can be edited to extract desired data:
 Data download can be done:
 https://drive.google.com/drive/folders/1pQK7fA5RbQu3xF0XiIua30coFAGFY3mX?usp=sharing
 
+The python program will lead you step by step on analyzing the data to proof the hypothesis that a possible solar power output can be 
+obtained in that laboratory given the radiation measured throughout the years.
+
+Yearly data for all 13 type of variables is analyzed, and the main components of the data base are:
+
+A) Irradiance Variables
+* Avg Global Horizontal [W/m^2]: is the total solar radiation received from above by a surface horizontal to the ground. This value is of particular importance for photovoltaic installations and includes Direct Normal Irradiance and Diffuse Horizontal Irradiance.
+* Avg Direct Normal [W/m^2]: is the amount of solar radiation received per unit area by a surface that is always held perpendicular (or normal) to the rays that come in a straight line from the direction of the sun at its current position in the sky. Typically, you can maximize the amount of irradiance annually received by a surface by keeping it normal to incoming radiation. This quantity is of particular interest to concentrating solar thermal installations and installations that track the position of the sun.
+* Avg Diffuse Horizontal [W/m^2]: Diffuse Horizontal Irradiance is the amount of radiation received per unit area by a surface (not subject to any shade or shadow) that does not arrive on a direct path from the sun, but has been scattered by molecules and particles in the atmosphere and comes equally from all directions.
+* Avg Direct (Bird estimated) [W/m^2]: is an estimate measurement done by the Bird Clear Sky Model, authored by Richard Bird, which is a broadband algorithm that produces estimates of clear sky direct beam, hemispherical diffuse, and total hemispherical solar radiation on a horizontal surface.
+
+B) Meteorological Variables (no detail needed)
+* Avg Air Temperature [deg C]          
+* Avg Rel Humidity [%]               
+* Avg Avg Wind Speed @ 42ft [m/s]      
+* Avg Est Pressure [mBar]              
+* Avg Precipitation [mm]               
+
+C) Other Variables
+* Avg CR800 Temp [deg C]: is the temperature of the CR800 datalogger panel.
+* Avg RSR Battery [VDC]: The RSR Battery powers the datalogger and the shadowband, it is charged by a photovoltaic panel, units in Volts of Direct Current.
+
+### Now we take a look at the data types:
