@@ -34,7 +34,7 @@ https://drive.google.com/drive/folders/1pQK7fA5RbQu3xF0XiIua30coFAGFY3mX?usp=sha
 The python program will lead you step by step on analyzing the data to proof the hypothesis that a possible solar power output can be 
 obtained in that laboratory given the radiation measured throughout the years.
 
-Yearly data for all 13 type of variables is analyzed, and the main components of the data base are:
+## Yearly data for all 13 type of variables is analyzed, and the main components of the data base are:
 
 A) Irradiance Variables
 * Avg Global Horizontal [W/m^2]: is the total solar radiation received from above by a surface horizontal to the ground. This value is of particular importance for photovoltaic installations and includes Direct Normal Irradiance and Diffuse Horizontal Irradiance.
@@ -53,4 +53,28 @@ C) Other Variables
 * Avg CR800 Temp [deg C]: is the temperature of the CR800 datalogger panel.
 * Avg RSR Battery [VDC]: The RSR Battery powers the datalogger and the shadowband, it is charged by a photovoltaic panel, units in Volts of Direct Current.
 
-### Now we take a look at the data types:
+### After data cleaning, you will be able to obtain the following correlation information:
+### From strong to weak:
+
+* As expected, there is a strong correlation between the variable Avg Global Horizontal, and the rest of the irradiance variables: Direct Normal, Diffuse Horizontal, and Bird estimated.
+* There is a strong correlation between the Global Horizontal and the RSR Battery. It can be due to the fact that the battery is charged through a PV.
+* There is a significant negative correlation between Global Horizontal and Relative Humidity. As one increases, the other decreases.
+* There is a significant correlation between Global Horizontal and CR800 Temperature which is expected.
+* There is a significant correlation between Global Horizontal and Air Temperature. also expected.
+* There is an equally strong correlation between Global Horizontal and Wind Speed at 42 ft that was not expected.
+
+Air temperature, Atm Pressure, and CR800 temperature show strong correlations as expected.
+
+### Now lets plot important variables:
+ Global Horizontal vs. RSR Battery
+ Global Horizontal vs. Relative Humidity
+ Global Horizontal vs. Wind Speed
+ Hour vs. Avg. Direct
+ 
+ ### We have now defined the main variables to keep working on to prove the hypothesis:
+ * Global Horizontal
+ * RSR Battery
+ * Relative Humidity
+ * Wind Speed
+
+### At the end of the program, LCL Pressure and LCL Temperature have been calculated and plotted with Matpy.cal libraries
